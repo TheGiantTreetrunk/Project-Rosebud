@@ -1,5 +1,5 @@
 # Project-Rosebud
-Project Rosebud - A infinite adventure generator game with text adventure features
+> Project Rosebud - A infinite adventure generator game with text adventure features
 
 <table>
   <td>
