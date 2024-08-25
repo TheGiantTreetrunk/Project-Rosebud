@@ -1,0 +1,803 @@
+:root {
+  --bg-image: url('../sprites/sprite_sheet.png');
+  --innuitskbg-image: url('../sprites/inuitskbg.png');
+  --innuitskbg2-image: url('../sprites/inuitskbg2.png');
+}
+
+#sprite_rose_uix_taskbar_icon {
+	width: 32px;
+	height: 32px;
+	background-image: url('../sprites/sprite_ui_rose_icon.png');
+}
+
+#sprite_player {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_police_1 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_police_2 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_police_3 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_octopus {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_glarb {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_ember {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_bush_entity {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_blob_entity {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_tree_entity {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_lenderman {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_toad {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_burglar {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_ghost {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_counter_hacker {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_snake {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_serpant {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_thug_1 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_thug_2 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_droid_1 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_cactus_entity {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_spec_ops_trooper_1 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_goblin {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_mushroom_ent {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_grabble {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_dragon {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_cultist {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_duck {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_mimic {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_counter_hacker_2 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_skeleton {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_rock_entity {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_half_pint_hacker {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_null {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_0 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_1 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_2 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_3 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_4 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_5 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_6 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_7 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_8 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_9 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_10 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_11 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_12 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_13 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_14 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_15 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_16 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_17 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_18 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_19 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_20 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_21 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_22 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_23 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_24 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_25 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_26 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_27 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	background-position: -128px -160px;
+}
+
+#sprite_item_28 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_29 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_30 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_31 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_32 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_33 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+
+#sprite_item_34 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+
+}
+
+#sprite_item_35 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_36 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_37 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_38 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_39 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_40 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_41 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_42 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_43 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_44 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_item_45 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_jackintosh {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_hdd {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_printer {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_satellite {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_psu {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_ham_radio {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_pos_machine {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_mainframe {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_folder {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_firewall {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_gpu {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_terminal {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_save {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_server {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_antenna {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_ram {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_desktop {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_storage_server {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_laptop {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_trash_can {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_pc {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_safe {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_smart_phone {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_camera {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_email {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_router {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_atm {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_landline {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_motherboard {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_00 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_01 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_02 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}
+
+#sprite_03 {
+	width: 64px;
+	height: 64px;
+	background-image: var(--bg-image);
+	
+}

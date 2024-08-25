@@ -1,0 +1,460 @@
+body{
+	padding: 20px;
+	background-color: #fff;
+}
+
+.body_desktop {
+	background-image: url("../sprites/bg.png");
+}
+
+#action_start_button {
+	z-index: 12;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #c3c3c3; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #212626; 
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("../ttf/os_font.ttf");
+}
+
+*{
+  box-sizing: border-box;
+  font-family: myFirstFont;
+}
+
+
+			body {
+				background-color: #ffffff;
+				
+			}
+
+			img {
+				image-rendering: pixelated;
+				}
+
+			.health_icon{
+				background-image: url("assets/ui/health_icon.png");
+				width: 24px;
+				height: 24px;
+				object-fit: fill;
+				background-repeat: no-repeat;
+				background-size: 9px;
+			}
+			.armour_icon{
+				background-image: url("assets/ui/armor_icon.png");
+				width: 24px;
+				height: 24px;
+				object-fit: fill;
+				background-repeat: no-repeat;
+			}
+			.mobility_icon{
+				background-image: url("assets/ui/mobility_icon.png");
+				width: 24px;
+				height: 24px;
+				object-fit: fill;
+				background-repeat: no-repeat;
+			}
+			.strength_icon{
+				background-image: url("assets/ui/strength_icon.png");
+				width: 24px;
+				height: 24px;
+				object-fit: fill;
+				background-repeat: no-repeat;
+			}
+			
+			#plyr_icon {
+				width: 16px;
+				height: 16px;
+				object-fit: fill;
+				background-repeat: no-repeat;
+			}
+			
+			
+.topnav_top {
+  overflow: hidden;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.topnav_top a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav_top a:hover {
+  background-color: #000;
+  color: white;
+}
+
+.topnav_top a.active {
+  background-color: #000;
+  color: white;
+}
+
+.content_game_view {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 40px;
+}
+
+
+.topnav_btm {
+  overflow: hidden;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.topnav_btm a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav_btm a:hover {
+  background-color: #000;
+  color: white;
+}
+
+.topnav_btm a.active {
+  background-color: #000;
+  color: white;
+}
+
+
+.game_map_scenery {
+	width: 320px;
+	height: 96px;
+	border: 3px solid black;
+}
+
+.info_box_rpg {
+	width: 320px;
+	height: 64px;
+	border: 3px solid black;
+	padding-left: 8px;
+}
+
+#rpg_text_output {
+	text-align: left;
+}
+
+.rpg_command_box {
+	width: 320px;
+	text-align: left;
+}
+
+
+.sprite_rpg_hud_icon {
+	width: 32px;
+	height: 32px;
+}
+
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 9;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+.align_center {
+	text-align: center;
+	font-size: 18px;
+}
+
+
+#myInput_test {
+	border: 1px solid black;
+	height: 100px;
+	width: 300px;
+}
+#game_map_scenery1 {
+	position: relative;
+}
+#plyr_icon {
+	position:absolute;
+	bottom: 9px;
+	left: 64px;
+}
+
+.rpg_biome_temp {
+	background-image: url("../sprites/rpg_biome_temp.png");
+	image-rendering: pixelated;
+}
+
+.rpg_biome_grasslands {
+	background-image: url("../sprites/rpg_biome_grasslands.png");
+	image-rendering: pixelated;
+}
+
+.rpg_biome_forest {
+	background-image: url("../sprites/rpg_biome_forest.png");
+	image-rendering: pixelated;
+}
+
+.rpg_biome_tundra {
+	background-image: url("../sprites/rpg_biome_tundra.png");
+	image-rendering: pixelated;
+}
+
+.rpg_biome_dessert {
+	background-image: url("../sprites/rpg_biome_desert.png");
+	image-rendering: pixelated;
+}
+
+.rpg_biome_woodlands {
+	background-image: url("../sprites/rpg_biome_woodlands.png");
+	image-rendering: pixelated;
+}
+
+.rpg_biome_swamp {
+	background-image: url("../sprites/rpg_biome_swamp.png");
+	image-rendering: pixelated;
+}
+
+.rpg_biome_jungle {
+	background-image: url("../sprites/rpg_biome_jungle.png");
+	image-rendering: pixelated;
+}
+
+
+.tab {
+  overflow: hidden;
+  border: 3px solid #000;
+  background-color: #fff;
+  width: 320px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.tab button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 3px solid #000;
+  border-top: none;
+  width: 320px;
+  height: 160px;
+  text-align: left;
+}
+
+#rpg_window_confirmation {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.confirm_window_background_shader {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #212626;
+	opacity: 0.5;
+}
+
+.confirm_window_window {
+	position: relative;
+}
+
+.confirm_window_content {
+	position: absolute;
+	top: 240px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 240px;
+	height: 240px;
+	border: 3px solid black;
+	background-color: #fff;
+	box-shadow: 10px 10px;	
+	padding: 8px;
+}
+
+.icon_list_fish_icon {
+	list-style-image: url('../sprites/sprite_li_fish_icon.png');
+}
+
+.icon_list_forage_icon {
+	list-style-image: url('../sprites/sprite_li_forage_icon.png');
+}
+
+.icon_list_cancel_icon {
+	list-style-image: url('../sprites/sprite_li_cancel_icon.png');
+}
+
+.icon_list_recon_icon {
+	list-style-image: url('../sprites/sprite_li_recon_icon.png');
+}
+
+.icon_list_camp_icon {
+	list-style-image: url('../sprites/sprite_li_camp_icon.png');
+}
+
+.icon_list_dowsing_icon {
+	list-style-image: url('../sprites/sprite_li_dowsing_icon.png');
+}
+
+.icon_list_sleep_icon {
+	list-style-image: url('../sprites/sprite_li_sleep_icon.png');
+}
+
+.icon_list_water_icon {
+	list-style-image: url('../sprites/sprite_li_water_icon.png');
+}
+
+.icon_list_food_icon {
+	list-style-image: url('../sprites/sprite_li_food_icon.png');
+}
+
+.icon_list_forward_icon {
+	list-style-image: url('../sprites/sprite_li_forward_icon.png');
+}
+
+.icon_list_retreat_icon {
+	list-style-image: url('../sprites/sprite_li_retreat_icon.png');
+}
+
+.task_window {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	height: 75%;
+	border: 3px solid black;
+	background-color: #fff;
+	box-shadow: 10px 10px;
+}
+
+.task_window_content {
+	position: absolute;
+	padding: 3px;
+	bottom: 3px;
+	left: 3px;
+	right: 3px;
+	top: 3px;
+	border: 3px solid black;
+	background-image: var(--innuitskbg-image);
+	overflow-y: scroll;
+	padding-left: 4px;
+}
+
+.hide_this {
+	display: none;
+}
+
+.mm_tiny {
+	width: 16px;
+	height: 16px;
+}
+
+.mm_center_screen {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 160px;
+	height: 160px;
+}
+
+.watermark_mm {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	right: 50%;
+	width: 75%;
+	transform: translate(-50%, 0);
+}
+
+
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 100;}
+}
+
+.mm_blinker_text {
+	animation-name: example;
+    animation-duration: 1s;
+	animation-iteration-count: infinite;
+}

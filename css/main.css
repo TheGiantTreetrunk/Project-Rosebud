@@ -1,0 +1,439 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../ttf/os_font.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myFirstFont;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #c3c3c3; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #212626; 
+}
+
+progress[value] {
+	--color: #000; /* the progress color */
+	--background: lightgrey; /* the background color */
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	width: 200px;
+	margin: 5px 5px;
+	background: var(--background);
+}
+progress[value]::-webkit-progress-bar {
+	background: var(--background);
+}
+progress[value]::-webkit-progress-value {
+	background: var(--color);
+}
+progress[value]::-moz-progress-bar {
+	background: var(--color);
+}
+
+body{
+	padding: 20px;
+	background-color: #000;
+}
+
+.body_desktop {
+	background-image: var(--innuitskbg2-image);
+}
+
+img {
+	image-rendering: pixelated;
+}
+div {
+	image-rendering: pixelated;
+}
+
+#UIX_ROSE_CLI {
+	color: #fff;
+	padding: 10px;
+	margin: 5px;
+}
+
+.user_hi{
+	color: green;
+}
+
+.UIX_ROSE_login_form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 30%;
+	border: 3px solid black;
+	background-color: #fff;
+	box-shadow: 10px 10px;
+}
+
+.app_drawer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 75%;
+	height: 75%;
+	border: 3px solid black;
+	background-color: #fff;
+	box-shadow: 10px 10px;
+}
+
+.hide_this {
+	display: none;
+}
+
+.desktop_shortcut {
+	width: 64px;
+	height: 64px;
+	hover: none;
+	border: none;
+	background-repeat: no-repeat;
+	background-size: 64px 64px;
+}
+
+.appz {
+	
+}
+
+.app_icon {
+	padding: 2px;
+	margin: 2px;
+}
+
+.icon_profiler {
+	background-image: url('../sprites/sprite_profiler.png');
+}
+
+.icon_terminal {
+	background-image: url('../sprites/sprite_terminal.png');
+}
+
+.icon_app_store {
+	background-image: url('../sprites/sprite_app_store.png');
+}
+
+.icon_e_mail {
+	background-image: url('../sprites/sprite_email.png');
+}
+
+.icon_tiny_rpg {
+	background-image: url('../sprites/sprite_tiny.png');
+}
+
+.shortcut_title {
+	color: #000;
+	text-align: center;
+}
+
+#menu_bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 42px;
+	border: 3px solid #000;
+	background-color: #000;
+}
+
+#menu_bar a {
+	float: left;
+    color: #fff;
+    text-align: center;
+    padding: 10px 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#menu_bar a:hover {
+  color: #6b6b6b;
+}
+
+.menu_bar_time a {
+	float: right;
+}
+
+.menu_bar_time a:hover {
+	color: #000000;
+}
+
+#app_settingz {
+	position: fixed;
+	top: 42px;
+	left: 0px;
+	width: 160px;
+	height: 160px;
+	border: 3px solid #000;
+	background-color: #fff;
+	box-shadow: 5px 5px;
+	z-index: 3;
+}
+
+.app_settin_opt {
+	width: 100%;
+	height: 33%;
+	background-color: none;
+	color: #000;
+	padding: 2px;
+	margin: 0px;
+	font-size: 14px;
+	border: none;
+}
+
+#cash_amount {
+	position: fixed;
+	top: 42px;
+	left: 0;
+	width: 64px;
+	height: 32px;
+	border: 3px solid #000;
+	background-color: #fff;
+	box-shadow: 5px 5px;
+}
+
+#node_amount {
+	position: fixed;
+	top: 42px;
+	right: 0;
+	width: 64px;
+	height: 32px;
+	border: 3px solid #000;
+	background-color: #fff;
+	box-shadow: 5px 5px;
+}
+
+#uix_dock {
+	position: fixed;
+	bottom: 0;
+	left: 20%;
+	right: 20%;
+	height: 64px;
+	border: 3px solid black;
+	background-color: #000;
+	color: #fff;
+}
+
+.task_window {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	height: 75%;
+	border: 3px solid black;
+	background-color: #fff;
+	box-shadow: 10px 10px;
+}
+
+.task_window_title_bar {
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	right: -3px;
+	height: 32px;
+	border: 3px solid black;
+	padding: 5px;
+	background-color: #000;
+	color: #fff;
+}
+
+.task_window_title_bar_name {
+	text-align: center;
+}
+
+.task_window_content {
+	position: absolute;
+	padding: 3px;
+	bottom: 3px;
+	left: 3px;
+	right: 3px;
+	top: 33px;
+	border: 3px solid black;
+	background-image: var(--innuitskbg-image);
+	overflow-y: scroll;
+	padding-left: 4px;
+}
+
+.task_window_content_label{
+	background-color: #fff;
+	text-align: center;
+}
+
+.UI_Monitor_Icon {
+	width: 64px;
+	height: 64px;
+	background-color: #fff;
+	border: 1px solid black;
+	margin: 4px;
+}
+
+.table_list_css {
+	
+}
+
+.tr_ui_tsk {
+	background-color: #fff;
+	color: #000;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	text-align: center;
+	border: none;
+}
+
+.tr_ui_tsk td {
+	width: 25%;
+	border: none;
+}
+
+.ui_prog_bar {
+	background-color: #fff;
+	color: #000;
+}
+
+.game_viewport{
+	position: absolute;
+	padding: 3px;
+	bottom: 1px;
+	left: 1%;
+	right: 1%;
+	top: 32px;
+	width: 98%;
+	height: 93%;
+	border: 3px solid black;
+	background-color: #fff;
+	overflow-y: scroll;
+	padding-left: 4px;
+	
+	overflow-y: none;
+}
+
+.terminal_window {
+	background-color: #000;
+	color: #fff;
+	position: absolute;
+	padding: 3px;
+	bottom: 3px;
+	left: 3px;
+	right: 3px;
+	top: 33px;
+	border: 3px solid black;
+	overflow-y: scroll;
+	padding-left: 4px;
+}
+
+
+#xxy {
+	background-color: #000;
+	color: #fff;
+	border: none;
+}
+
+input[type=text]:focus {
+  background-color: #000;
+}
+
+
+
+
+
+
+
+
+#calcu table { 
+    border: 1px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+          
+.calc_button input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: #000; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+} 
+          
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+} 
+
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 9;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext1 {
+  visibility: hidden;
+  width: 240px;
+  height: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  right: 0;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* ONCE I FIGURE THIS OUT THEN UN COMMENT IT!!!!!
+.tooltip:hover .tooltiptext1 {
+  visibility: visible;
+}
+*/
