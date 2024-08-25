@@ -1,0 +1,180 @@
+<html>
+	<head>
+		<title>Tiny's Adventure</title>
+		<link rel="stylesheet" href="assets/css/rpg.css">
+		<script src="assets/scripts/rpg.js"></script>
+		
+		<script>
+		function tabz(evt, namea) {
+		  // Declare all variables
+		  var i, tabcontent, tablinks;
+
+		  // Get all elements with class="tabcontent" and hide them
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		  }
+
+		  // Get all elements with class="tablinks" and remove the class "active"
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+
+		  // Show the current tab, and add an "active" class to the button that opened the tab
+		  document.getElementById(namea).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		</script>
+	</head>
+	
+	<body id="body" >
+	<div id="main_menu">
+		<center>
+			<img width="75%" height="auto" src="assets/UIX/tiny logo.png">
+			
+			<div class="mm_center_screen">
+				<h2 class="mm_blinker_text">Tap to Play</h2>
+				<br><br><br><br>
+				<img class="mm_tiny" src="assets/sprites/sprite_tiny.png">
+			</div>
+			
+			<p class="watermark_mm">Copyright [C] 2024 Austin Elke. All rights Reserved.</p>
+			
+			<div id="action_start_button" onclick="launch()"></div>
+		</center>
+		
+	</div>
+	
+	
+	<div id="game_portion" class="hide_this">
+	
+		<div class="topnav_top">
+			<a id="rpg_day_counter">Day: 1</a>
+			<a id="rpg_tod_counter">Morning</a>
+			<a id="rpg_distance_traveled_counter">1km</a>
+			<a id="rpg_tot_kills">1 Kill</a>
+		</div>
+			
+		<div class="topnav_btm">
+			<a id="rpg_biomes">Grasslands</a>
+			<a id="rpg_terrain">Hills</a>
+			<a id="rpg_body_water">River</a>
+		</div>
+		
+		<div id="game_section_game_manager" class="task_window">
+			<div id="" class="task_window_content">
+			
+				<div id="" class="content_game_view">
+					<div>
+					
+						<center>
+						
+							<h4 id="plyrname_tag">Player</h4>
+							<p>0<br>Points</p>
+							
+							<div id="game_map_scenery1" class="game_map_scenery">
+								<p id="plyr_stat_block"></p>
+							</div>
+							
+							<table>
+								<tr>
+									<td class="align_center" id="player_rpg_stat_health">10</td>
+									<td class="align_center" id="player_rpg_stat_academic">1</td>
+									<td class="align_center" id="player_rpg_stat_mobility">1</td>
+									<td class="align_center" id="player_rpg_stat_strength">1</td>
+									<td class="align_center" id="player_rpg_stat_weapon">0</td>
+									<td class="align_center" id="player_rpg_stat_armor">0</td>
+									<td class="align_center" id="player_rpg_stat_food">0</td>
+									<td class="align_center" id="player_rpg_stat_water">0</td>
+									<td class="align_center" id="player_rpg_stat_battery">99</td>
+								</tr>
+								<tr>
+									<td class="tooltip"><img id="player_rpg_stat_health_icon" src="assets/sprites/sprite_item_39.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Health</span></td>
+									<td class="tooltip"><img id="player_rpg_stat_academic_icon" src="assets/sprites/sprites_rpg_academic.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Academic</span></td>
+									<td class="tooltip"><img id="player_rpg_stat_mobility_icon" src="assets/sprites/sprites_rpg_stanima.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Mobility</span></td>
+									<td class="tooltip"><img id="player_rpg_stat_strength_icon" src="assets/sprites/sprites_rpg_energy.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Strength</span></td>
+									<td class="tooltip"><img id="player_rpg_stat_weapon_icon" src="assets/sprites/sprite_item_31.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Weapon</span></td>
+									<td class="tooltip"><img id="player_rpg_stat_armor_icon" src="assets/sprites/sprite_item_27.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Armor</span></td>
+									<td class="tooltip"><img id="player_rpg_stat_food_icon" src="assets/sprites/sprite_item_28.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Food</span></td>
+									<td class="tooltip"><img id="player_rpg_stat_water_icon" src="assets/sprites/sprite_item_20.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Water</span></td>
+									<td class="tooltip"><img id="player_rpg_stat_battery_icon" src="assets/sprites/sprite_battery.png" class="sprite_rpg_hud_icon"><span class="tooltiptext">Battery</span></td>
+								</tr>
+							</table>
+							<br>
+							<div id="" class="info_box_rpg"><p id="rpg_text_output">This is a Test!</p></div>
+							
+							<br>
+						
+						<div class="tab">
+							<button class="tablinks" onclick="tabz(event, 'commanda')">Commands</button>
+							<button class="tablinks" onclick="tabz(event, 'inventoria')">Inventory</button>
+							<button class="tablinks" onclick="tabz(event, 'structurez')">Structures</button>
+						</div>
+
+						<!-- Tab content -->
+						<div id="commanda" class="tabcontent">
+							<table class="rpg_command_box">
+								<tr>
+									<td><li class="icon_list_forward_icon"><a onclick="Commands(1)">Forward</a></li></td>
+									<td><li class="icon_list_retreat_icon"><a onclick="Commands(2)">Retreat</a></li></td>
+								</tr>
+								<tr>
+									<td><li class="icon_list_food_icon"><a onclick="Commands(3)">Eat</a></li></td>
+									<td><li class="icon_list_water_icon"><a onclick="Commands(4)">Drink</a></li></td>
+								</tr>
+								<tr>
+									<td><li class="icon_list_sleep_icon"><a>Sleep</a></li></td>
+									<td><li class="icon_list_forage_icon"><a>Forage</a></li></td>
+								</tr>
+								<tr>
+									<td><li class="icon_list_dowsing_icon"><a>Dowsing</a></li></td>
+									<td><li class="icon_list_camp_icon"><a>Set Camp</a></li></td>
+								</tr>
+								<tr>
+									<td><li class="icon_list_recon_icon"><a>Reconnaissance</a></li></td>
+								</tr>
+							</table>
+						</div>
+
+						<div id="inventoria" class="tabcontent">
+							
+						</div>
+
+						<div id="structurez" class="tabcontent">
+							<p>Structures</p>
+							<p>Nothing seems to be around here...</p>
+							<button>Search</button>
+						</div>
+						
+						</center>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div id="rpg_window_confirmation" class="hide_this">
+		
+			<div id="" class="confirm_window_background_shader"></div>
+			
+			<div id="" class="confirm_window_window">
+				
+				<div id="" class="confirm_window_content">
+					<p>Confirm Option</p>
+					<li class="icon_list_fish_icon">Fish</li>
+					<br>
+					<li class="icon_list_forage_icon">Forage</li>
+					<br>
+					<li class="icon_list_cancel_icon">Cancel</li>
+				</div>
+			
+			</div>
+			
+		</div>
+	</div>
+	
+	</body>
+	
+	</html>
