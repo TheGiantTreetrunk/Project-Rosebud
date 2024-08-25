@@ -2,8 +2,27 @@
 > Project Rosebud - A infinite adventure generator game with text adventure features
 
 <table>
-  <td>
-    <tr>test</tr>
-    <tr>test</tr>
-  </td>
+<tr><th colspan=4>Features of the project</tr>
+<tr>
+	<td><a>Survival</a></td>
+	<td><a>Map Generation</a></td>
+	<td><a>Random Encounters</a></td>
+	<td><a>Character Customization</a></td>
+</tr><tr>
+	<td><a>German</a></td>
+	<td><a>Greek</a></td>
+	<td><a>Indonesian</a></td>
+	<td><a>Italian</a></td>
+</tr>
+</table>
+
+
+<table>
+<tr><th colspan=4>Offical Supported Languages</tr>
+<tr>
+	<td><a>English</a></td>
+	<td><a></a></td>
+	<td><a></a></td>
+	<td><a></a></td>
+</tr>
 </table>
