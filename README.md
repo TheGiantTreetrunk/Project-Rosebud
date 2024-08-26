@@ -1,7 +1,8 @@
- roject-Rosebud
+Project-Rosebud
 > Project Rosebud - A infinite adventure generator game with text adventure features
 
 [Click to play](https://thegianttreetrunk.github.io/Project-Rosebud/)
+
 <table>
 <tr><th colspan=4>Features of the project</tr>
 <tr>
