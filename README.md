@@ -8,11 +8,6 @@
 	<td><a>Map Generation</a></td>
 	<td><a>Random Encounters</a></td>
 	<td><a>Character Customization</a></td>
-</tr><tr>
-	<td><a>German</a></td>
-	<td><a>Greek</a></td>
-	<td><a>Indonesian</a></td>
-	<td><a>Italian</a></td>
 </tr>
 </table>
 
