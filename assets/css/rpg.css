@@ -312,6 +312,7 @@ body{
   width: 320px;
   height: 160px;
   text-align: left;
+  overflow-y: scroll;
 }
 
 #rpg_window_confirmation {
