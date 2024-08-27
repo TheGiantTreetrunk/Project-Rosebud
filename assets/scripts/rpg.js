@@ -125,6 +125,29 @@
 		document.getElementById("player_rpg_stat_water").innerHTML = player.Water;
 		document.getElementById("player_rpg_stat_battery").innerHTML = player.Battery;
 		
+
+		document.getElementById("inventory_list").innerHTML = 
+		"Super Tool: " + player_inventory.supertool + "<br>" +
+		"Food: " + player_inventory.foods + "<br>" +
+		"Water: " + player_inventory.waters + "<br>" +
+		"Wood: " + player_inventory.wood + "<br>" +
+		"Stone: " + player_inventory.stone + "<br>" +
+		"Cooking Pot: " + player_inventory.cooking_pot + "<br>" +
+		"Gold Coins: " + player_inventory.gold_coins + "<br>" +
+		"Iron: " + player_inventory.iron + "<br>" +
+		"Steel: " + player_inventory.steel + "<br>" +
+		"Coal: " + player_inventory.coal + "<br>" +
+		"Ruby: " + player_inventory.ruby + "<br>" +
+		"Saphire: " + player_inventory.saphire + "<br>" +
+		"Emerald: " + player_inventory.emerald + "<br>" +
+		"Daimond: " + player_inventory.daimond + "<br>" +
+		"Gold: " + player_inventory.gold + "<br>" +
+		"Silver: " + player_inventory.silver + "<br>" +
+		"Fur: " + player_inventory.fur + "<br>" +
+		"Feather: " + player_inventory.feather + "<br>" +
+		"Advanced Alloy: " + player_inventory.advanced_alloy + "<br>" +
+		"Sulfur: " + player_inventory.sulfur + "<br>";
+
 		World();
 		tabz(event, 'commanda');
 		Commands(0);
