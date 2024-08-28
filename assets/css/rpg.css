@@ -411,7 +411,6 @@ body{
 
 .task_window_content {
 	position: absolute;
-	padding: 3px;
 	bottom: 3px;
 	left: 3px;
 	right: 3px;
@@ -419,7 +418,6 @@ body{
 	border: 3px solid black;
 	background-image: var(--innuitskbg-image);
 	overflow-y: scroll;
-	padding-left: 4px;
 }
 
 .hide_this {
