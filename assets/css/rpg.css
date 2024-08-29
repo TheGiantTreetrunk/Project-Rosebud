@@ -418,6 +418,7 @@ body{
 	border: 3px solid black;
 	background-image: var(--innuitskbg-image);
 	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .hide_this {
