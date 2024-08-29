@@ -29,6 +29,12 @@ App stores are legacy of old, everything is built on the web through web apps. l
 	<td><a>Random Encounters</a></td>
 	<td><a>Character Customization</a></td>
 </tr>
+<tr>
+	<td><a>Item Crafting</a></td>
+	<td><a>Building Generation</a></td>
+	<td><a>Dungeon Generation</a></td>
+	<td><a>Items!</a></td>
+</tr>
 </table>
 
 </details>
