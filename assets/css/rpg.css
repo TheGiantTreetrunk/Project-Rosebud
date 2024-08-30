@@ -459,3 +459,8 @@ body{
     animation-duration: 1s;
 	animation-iteration-count: infinite;
 }
+
+.comanno {
+	cursor:default;
+	text-decoration: underline;
+}
