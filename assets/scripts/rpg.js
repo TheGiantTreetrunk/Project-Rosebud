@@ -277,6 +277,19 @@
 	function Output_Commando (commando) {
 		
 	}
+
+	function Survival_Controller() {
+		/*
+		Core info for survival
+		3 minutes without air
+		3 days without water
+		3 weeks without food
+
+		3 days / 6 parts of in game = 18 actions before completely running out of water.
+		3 weeks = 21 days too much... just do 6 days without food = 36 total actions before completely running out of food.
+		
+		*/
+	}
 		
 	function World() {
 		if(game_current_tile <= game_map) { //to determine if the player is simply moving around to a generated tile 
