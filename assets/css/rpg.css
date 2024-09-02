@@ -460,7 +460,7 @@ body{
 	animation-iteration-count: infinite;
 }
 
-.comanno {
+.comanno:hover {
 	cursor:default;
 	text-decoration: underline;
 }
