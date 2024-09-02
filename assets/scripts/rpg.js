@@ -193,6 +193,7 @@
 			game_current_tile += 1;
 			World();
 			document.getElementById("rpg_text_output").innerHTML = "You move forward.";
+			Survival_Controller();
 		}
 		
 		if(command == 2) {//retreat command
@@ -202,6 +203,7 @@
 				game_current_tile -= 1;
 				World();
 				document.getElementById("rpg_text_output").innerHTML = "You move backward.";
+				Survival_Controller();
 			}
 		}
 		
@@ -289,6 +291,12 @@
 		3 weeks = 21 days too much... just do 6 days without food = 36 total actions before completely running out of food.
 		
 		*/
+
+		player.Water -= 10;
+		player.Food -= 5;
+		document.getElementById("player_rpg_stat_food").innerHTML = player.Food;
+		document.getElementById("player_rpg_stat_water").innerHTML = player.Water;
+
 	}
 		
 	function World() {
