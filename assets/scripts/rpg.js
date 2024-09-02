@@ -219,6 +219,8 @@
 			} else {//your full you fat fuck!
 				document.getElementById("rpg_text_output").innerHTML = "You are not hungry.";
 			}
+
+			document.getElementById("player_rpg_stat_food").innerHTML = player.Food;
 		}
 		
 		if(command == 4) {//drink command
@@ -233,6 +235,8 @@
 			} else {//your full you idiot!
 				document.getElementById("rpg_text_output").innerHTML = "You are not thirsty.";
 			}
+
+			document.getElementById("player_rpg_stat_water").innerHTML = player.Water;
 		}
 		
 		if(command == 5) {//sleep command
