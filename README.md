@@ -3,6 +3,9 @@
 
 [Click to play online for free!](https://thegianttreetrunk.github.io/Project-Rosebud/)
 
+[Click to sign up for the development team!](https://docs.google.com/forms/d/e/1FAIpQLSeMRoNWqMC_S-xjJ4qmYOSH8Wm6VysJ5vJuf2-RzMy_IlB7Xg/viewform)
+
+
 <details>
 
 <summary>About</summary>
