@@ -39,7 +39,7 @@
 	var commands_battle = ["Attack","Defend","Buff Up","Forward","Retreat"];
 					
 	var player = {
-		Name: "TREETRUNK",
+		Name: "A Traveler",
 		Health: 10,
 		Academic: 10,
 		Mobility: 10,
@@ -92,13 +92,14 @@
 		let usrinp = prompt("What shall thy hero be called:", "");
 		if (usrinp == null || usrinp == "") {
 		  alert("Thy hero cannot be nameless!");
+		  launch();
 		} else {
 		  alert(usrinp + "! Your journey awaits!");
 		  player.Name = usrinp;
+		  startup();
 		}
 	
 		//alert("works");
-		startup();
 	}
 	
 	function generate() {
@@ -126,6 +127,15 @@
 		document.getElementById("player_rpg_stat_battery").innerHTML = player.Battery;
 		
 
+		
+		Inventory_Update();
+		World();
+		tabz(event, 'commanda');
+		Commands(0);
+	}
+
+	
+	function Inventory_Update() {
 		document.getElementById("inventory_list").innerHTML = 
 		"Super Tool: " + player_inventory.supertool + "<br>" +
 		"Food: " + player_inventory.foods + "<br>" +
@@ -147,13 +157,7 @@
 		"Feather: " + player_inventory.feather + "<br>" +
 		"Advanced Alloy: " + player_inventory.advanced_alloy + "<br>" +
 		"Sulfur: " + player_inventory.sulfur + "<br>";
-
-		World();
-		tabz(event, 'commanda');
-		Commands(0);
 	}
-
-
 
 	function Core(action)/*Prototype Battle System (Simple Dice Roller)*/{
 		if(action == 0)/*load data*/{
@@ -221,6 +225,7 @@
 			}
 
 			document.getElementById("player_rpg_stat_food").innerHTML = player.Food;
+			Inventory_Update();
 		}
 		
 		if(command == 4) {//drink command
@@ -237,6 +242,7 @@
 			}
 
 			document.getElementById("player_rpg_stat_water").innerHTML = player.Water;
+			Inventory_Update();
 		}
 		
 		if(command == 5) {//sleep command
