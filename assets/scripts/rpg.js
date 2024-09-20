@@ -132,6 +132,7 @@
 		World();
 		tabz(event, 'commanda');
 		Commands(0);
+		DayNightController();
 	}
 
 	
@@ -198,6 +199,7 @@
 			World();
 			document.getElementById("rpg_text_output").innerHTML = "You move forward.";
 			Survival_Controller();
+			DayNightController();
 		}
 		
 		if(command == 2) {//retreat command
@@ -208,6 +210,7 @@
 				World();
 				document.getElementById("rpg_text_output").innerHTML = "You move backward.";
 				Survival_Controller();
+				DayNightController();
 			}
 		}
 		
@@ -307,6 +310,69 @@
 		document.getElementById("player_rpg_stat_food").innerHTML = player.Food;
 		document.getElementById("player_rpg_stat_water").innerHTML = player.Water;
 
+	}
+
+	function DayNightController () {
+		//alert("test");
+		game_time_of_day += 1;
+		
+		if(game_time_of_day <= 5) {
+			
+
+			//var time_of_day = ["Dawn","Morning","Noon","Evening","Night","Dusk"];
+			const yelement = document.getElementById("daytime_stat_and_position");
+			yelement.classList.remove("rpg_time_stat_dawn");
+			yelement.classList.remove("rpg_time_stat_morning");
+			yelement.classList.remove("rpg_time_stat_noon");
+			yelement.classList.remove("rpg_time_stat_evening");
+			yelement.classList.remove("rpg_time_stat_night");
+			yelement.classList.remove("rpg_time_stat_dusk");
+
+			document.getElementById("rpg_tod_counter").innerHTML = time_of_day[game_time_of_day];
+
+			if(game_time_of_day == 0) {
+				document.getElementById("daytime_stat_and_position").classList.add("rpg_time_stat_dawn");
+			}
+
+			if(game_time_of_day == 1) {
+				document.getElementById("daytime_stat_and_position").classList.add("rpg_time_stat_morning");
+			}
+
+			if(game_time_of_day == 2) {
+				document.getElementById("daytime_stat_and_position").classList.add("rpg_time_stat_noon");
+			}
+
+			if(game_time_of_day == 3) {
+				document.getElementById("daytime_stat_and_position").classList.add("rpg_time_stat_evening");
+			}
+
+			if(game_time_of_day == 4) {
+				document.getElementById("daytime_stat_and_position").classList.add("rpg_time_stat_night");
+			}
+
+			if(game_time_of_day == 5) {
+				document.getElementById("daytime_stat_and_position").classList.add("rpg_time_stat_dusk");
+			}
+
+		}
+
+		if(game_time_of_day == 6) {
+			game_time_of_day = 0;
+
+			const y1element = document.getElementById("daytime_stat_and_position");
+			y1element.classList.remove("rpg_time_stat_dawn");
+			y1element.classList.remove("rpg_time_stat_morning");
+			y1element.classList.remove("rpg_time_stat_noon");
+			y1element.classList.remove("rpg_time_stat_evening");
+			y1element.classList.remove("rpg_time_stat_night");
+			y1element.classList.remove("rpg_time_stat_dusk");
+
+			document.getElementById("rpg_tod_counter").innerHTML = time_of_day[game_time_of_day];
+
+			
+			y1element.classList.add("rpg_time_stat_dawn");
+			
+		}
 	}
 		
 	function World() {

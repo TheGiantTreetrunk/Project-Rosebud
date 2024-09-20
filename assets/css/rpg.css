@@ -397,6 +397,69 @@ body{
 	list-style-image: url('../sprites/sprite_li_retreat_icon.png');
 }
 
+
+
+
+
+
+
+
+.rpg_time_stat_dawn {
+	position:absolute;
+	top: 9px;
+	left: 16px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../sprites/sprite_sun.png');
+}
+
+.rpg_time_stat_morning {
+	position:absolute;
+	top: 9px;
+	left: 64px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../sprites/sprite_sun.png');
+}
+
+.rpg_time_stat_noon {
+	position:absolute;
+	top: 9px;
+	left: 112px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../sprites/sprite_sun.png');
+} 
+
+.rpg_time_stat_evening {
+	position:absolute;
+	top: 9px;
+	left: 160px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../sprites/sprite_moon.png');
+}
+
+.rpg_time_stat_night {
+	position:absolute;
+	top: 9px;
+	left: 208px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../sprites/sprite_moon.png');
+}
+
+.rpg_time_stat_dusk {
+	position:absolute;
+	top: 9px;
+	left: 256px;
+	width: 32px;
+	height: 32px;
+	background-image: url('../sprites/sprite_moon.png');
+}
+
+
+
 .task_window {
 	position: absolute;
 	top: 50%;
